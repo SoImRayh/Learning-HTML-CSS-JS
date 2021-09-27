@@ -5,9 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
+
+    <!--para link css rel'(definir tipo stylesheet)', type'(teste/css)', href'(caminho do arquivo)'-->
+    <link rel="stylesheet" type="text/css" href="./css.css" media="screen">
+
+    <script src="./script.js"></script>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>this is my first page with only HTML</p>
+    <div class="hello">
+        <h1 class="texto" id="demo">Hello World</h1>
+        <p id="tt">this is my first page with only HTML</p>
+    </div>
+    <div>
+        <button type="button" id="but" onclick="print_date()">clic</button>
+    </div>
 </body>
 </html>

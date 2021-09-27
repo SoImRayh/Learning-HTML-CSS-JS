@@ -1,0 +1,8 @@
+.hello{
+    background-color:#505050;
+    box-shadow: inset;
+}
+.texto{
+    /*comand color at font change, font color*/
+    color: aqua;
+}
