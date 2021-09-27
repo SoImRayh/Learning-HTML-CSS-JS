@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--mudar o nome da aba no navegador-->
     <title>Hello World</title>
 
     <!--para link css rel'(definir tipo stylesheet)', type'(teste/css)', href'(caminho do arquivo)'-->
     <link rel="stylesheet" type="text/css" href="./css.css" media="screen">
 
+    <!--Para link js abre-se a tag de script e adiciona-se src="%caminho do arquivo"-->
     <script src="./script.js"></script>
 </head>
+<!--Usamos as seguintes afirmaçãoes para css e js
+    class   =   "blá blá" para efetuarmos referências em css,
+    id      =   "blá blá" para referências em js
+-->
 <body>
     <div class="hello">
         <h1 class="texto" id="demo">Hello World</h1>
         <p id="tt">this is my first page with only HTML</p>
     </div>
     <div>
+        <!--A função é chamada a partir do clique (onclick="function()")-->
         <button type="button" id="but" onclick="print_date()">clic</button>
     </div>
 </body>
